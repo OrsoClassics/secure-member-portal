@@ -75,15 +75,7 @@ cd /c/xampp/htdocs
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/secure-member-portal.git
-```
-
-Substitua `SEU_USUARIO` pelo nome real da conta do GitHub que possui este repositório.
-
-Depois entre na pasta criada:
-
-```bash
-cd secure-member-portal
+git clone https://github.com/OrsoClassics/secure-member-portal.git
 ```
 
 ### Baixando pelo formato ZIP
