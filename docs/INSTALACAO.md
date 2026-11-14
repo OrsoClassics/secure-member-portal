@@ -56,9 +56,7 @@ Entre na pasta de sites do XAMPP com:
 
 Clone o repositório com:
 
-    git clone https://github.com/SEU_USUARIO/secure-member-portal.git
-
-Substitua SEU_USUARIO pelo nome real da conta do GitHub que possui este repositório.
+    git clone https://github.com/OrsoClassics/secure-member-portal.git
 
 Depois entre na pasta criada:
 
