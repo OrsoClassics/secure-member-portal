@@ -74,7 +74,7 @@ cd /c/xampp/htdocs
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/secure-member-portal.git
+git clone https://github.com/OrsoClassics/secure-member-portal.git
 ```
 
 Replace `YOUR_USERNAME` with the actual GitHub account name that owns this repository.
