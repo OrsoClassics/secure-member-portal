@@ -1,3 +1,5 @@
+[Versão em Português](LEIAME.md)
+
 # Secure Member Portal
 
 This is a personal project that I am developing using PHP, MySQL, user registration, login, password recovery by email, and a protected download area.
