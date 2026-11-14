@@ -1,0 +1,59 @@
+# Configurações privadas
+/config/banco.php
+/config/email.php
+/config/banco-local.php
+/config/banco-remoto-backup.php
+
+# Qualquer arquivo de backup de configuração
+/config/*backup*
+/config/*remoto*
+
+# Credenciais pessoais ou do servidor
+*Credenciais*
+*credenciais*
+*.key
+*.pem
+
+# Bancos de dados e backups SQL
+*.sql
+*.sql.zip
+*.dump
+backup/
+backups/
+database-backups/
+
+# Permite o modelo público, sem dados reais
+!/database/schema.sql
+
+# Arquivos de teste e diagnóstico
+diagnostico.php
+teste-email.php
+teste-banco.php
+teste-conexao-remota.php
+teste-banco-remoto.php
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Configurações de editores
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos enviados localmente
+/arquivos/*
+!/arquivos/.gitkeep

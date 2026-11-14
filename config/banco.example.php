@@ -1,0 +1,23 @@
+<?php
+
+$servidor = "localhost";
+$usuario = "root";
+$senha = "";
+$banco = "secure_member_portal";
+$porta = 3306;
+
+mysqli_report(MYSQLI_REPORT_OFF);
+
+$conexao = new mysqli(
+    $servidor,
+    $usuario,
+    $senha,
+    $banco,
+    $porta
+);
+
+if ($conexao->connect_errno) {
+    die("Não foi possível conectar ao banco de dados.");
+}
+
+$conexao->set_charset("utf8mb4");
